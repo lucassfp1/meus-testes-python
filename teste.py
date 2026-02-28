@@ -1,1 +1,0 @@
-print("Futuro engenheiro de computação ativado 🚀")
