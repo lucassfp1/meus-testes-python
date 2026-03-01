@@ -7,6 +7,3 @@ um = int(input("digite um numero: "))
 dois = int(input("digite outro numero: "))
 s = um + dois
 print("a soma é", s)
-
-
-
