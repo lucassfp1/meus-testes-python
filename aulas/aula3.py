@@ -41,6 +41,6 @@ d = n1/n2
 di = n1//n2
 e = n1**n2
 
-print(f"a soma vale {s}, \na multiplicação vale {m}, \na divisão vale {n1/n2:.5f}!",end=' ')
+print(f"a soma vale {s}, \na multiplicação vale {m}, \na divisão vale {n1/n2:.5f}!")
 print(f"a divisão inteira vale {di} e a exponenciação vale {e}")
 

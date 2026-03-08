@@ -16,7 +16,7 @@ print(f"A tabuada do seu número é \n{num} x 1 = {m} \n{num} x 2 = {m1} \n{num}
 #desafio 10
 
 real = int(input("Quantos reais você tem? "))
-dolar = real/3.27
+dolar = real/5.28
 print(f"Com {real} reais, você pode comprar {dolar:.1f} dólares!")
 
 #desafio 11

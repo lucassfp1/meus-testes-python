@@ -10,9 +10,8 @@ print("-"*40)
 
 km = float(input("Qual a quantidade de Km percorrido? "))
 dias = int(input("Qual a quantidade de dias alugados? "))
-pkm = km*0.15
-pdias = dias*60
+preço = (km*0.15)+(dias*60)
 print("-"*50)
 print(f"Pelo aluguel de {dias} dias e pela distancia de {km} KM")
-print(f"O preço total a pagar será R${pkm+pdias:.2f}")
+print(f"O preço total a pagar será R${preço:.2f}")
 print("-"*50)
