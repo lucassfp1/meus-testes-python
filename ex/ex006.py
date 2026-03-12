@@ -9,12 +9,12 @@ print("-"*40)
 
 # exercicio 17
 
-from math import sqrt
+from math import hypot
 
 print("-"*40)
 a = float(input("Qual o comprimento do cateto oposto do triangulo? "))
 b = float(input("Qual o comprimento do cateto adjacente do triangulo? "))
-hyp = sqrt(a**2 + b**2)
+hyp = hypot(a, b)
 print(f"A hipotenusa desse triangulo retangulo mede {hyp:.2f}!")
 print("-"*40)
 

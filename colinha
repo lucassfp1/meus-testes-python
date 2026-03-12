@@ -1,0 +1,93 @@
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+        // int minhaIdade = 20;
+        // String meuNome = "Lucas";
+        // var meuNome = "Giovanna";
+        // numeros inteiros = 100, 200, 12, 2313, 12313013
+           //byte from -128 to 127
+           //short from -32,768 to 32,767
+           //int from -2,147,483,648 to 2,147,483,647
+           //long from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+        // numeros decimais = 3.14, 2.71828, 1.61803
+           //float from 1.4E-45 to 3.4028235E38
+           //double from 4.9E-324 to 1.7976931348623157E308
+        // boolean = true or false
+        // char = 'A', 'B', 'C', 'D', 'E'
+        // String = Palavras e Frases
+
+        byte b = 100;
+        short s = 10000;
+        int i = 100000;
+        long l = 10000000000L;
+        float f = 10.5f;
+        double d = 20.5;
+        char c = 'a';
+        String str = "Lucas";
+        boolean bool = true;
+
+
+        // CONDITIONS
+
+//        if(str.isBlank()) {
+//            System.out.println("verdadeiro");
+//        }
+//        else if (str.equals("Lucas")) {
+//            System.out.println("Lucas");
+//        }
+//        else {
+//            System.out.println("falso");
+//        }
+
+        // ARRAY (VETORES)
+
+        int[] lista = {1 ,2 ,3 ,40 ,5};
+
+        // OU
+
+        int[] lista2 = new int[20];
+
+        char[] lista3 = {'a', 'b', 'c', 'd', 'e'};
+        System.out.println(lista[1]);
+
+        // ARRAY LIST
+
+        ArrayList<String> lista4 = new ArrayList<>();
+        lista4.add("Lucas");
+        lista4.add("Giovanna");
+        lista4.add("Lan");
+
+        System.out.println(lista4.get(1));
+
+        lista4.remove("Lan");
+
+        // LOOPS
+
+//           for (char j = 0; j < lista3.length; j++) {
+//                System.out.println(lista3[j]);
+//            }
+//
+//            for (String name : lista4){
+//                System.out.println(name);
+//            }
+
+//            int contador = 0;
+//
+//            while (contador < 5){
+//             System.out.println("Estou no while");
+//             contador++;
+//            }
+
+        // CASTINGS
+
+//            int num1 = 100;
+//            double num2 = num1; // Implicit casting (widening)
+//
+//            String meuStr = "10";
+//            int meuInt2 = Integer.parseInt(meuStr); // Explicit casting (narrowing)
+
+
+    }
+}
