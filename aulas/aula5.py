@@ -21,7 +21,7 @@
 
 #  Novo exemplo = frase = "   Aprenda Python  "
 #  frase.strip(), remove os espaços inuteis no começo e no final = "Aprenda Python"
-#  frase.rstrip(), remove os espaços da direita e frase.lstrip() que remove os da esq.
+#  frase.rstrip(), remove os espaços da dir. e frase.lstrip() que remove os da esq.
 
 # DIVISAO - frase = "Curso em Video Python"
 #  frase.split(), divide as palavras de acordo com os espaços "Curso" "em" "Video" "Python"
