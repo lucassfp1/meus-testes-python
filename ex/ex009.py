@@ -12,7 +12,7 @@ print("-"*80)
 
 # EXERCICIO 26
 
-frase = input("Digite uma frase: ")
+frase = input("Digite uma frase: ").lower()
 
 frase = frase.lower()
 a = frase.count("a")
