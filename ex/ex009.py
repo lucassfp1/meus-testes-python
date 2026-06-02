@@ -28,7 +28,7 @@ print("-"*80)
 nome = input("Digite seu nome completo: ")
 
 first = nome.split()[0]
-last = nome.split()[2]
+last = nome.split()[-1]
 
 print(f"Ex: {nome}")
 print(f"Primeiro: {first}")
